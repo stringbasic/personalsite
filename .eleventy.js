@@ -1,5 +1,6 @@
 module.exports = {
   dir: {
-    input: "src"
+    input: "src",
+    includes: "../includes"
   }
 };

@@ -5,3 +5,11 @@ My personal website, currently accessible at:
 
 * [www.stringbasic.com](http://www.stringbasic.com)
 * [www.stringbasic.pt](http://www.stringbasic.pt)
+
+# Instructions
+
+## start development server
+
+```
+> npx @11ty/eleventy --serve
+```

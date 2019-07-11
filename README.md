@@ -13,3 +13,14 @@ My personal website, currently accessible at:
 ```
 > npx @11ty/eleventy --serve
 ```
+
+watch for diagram changes:
+```
+> npx @diagrams/diagrams watch src
+```
+
+## build website
+
+```
+> npm run build
+```

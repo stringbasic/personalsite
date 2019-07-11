@@ -1,0 +1,9 @@
+Diagram(
+  Optional('+', 'skip'),
+    Choice(0,
+      NonTerminal('website'),
+      NonTerminal('under')),
+      ZeroOrMore(
+        Choice(0,
+          NonTerminal('currently'),
+          NonTerminal('construction'))))

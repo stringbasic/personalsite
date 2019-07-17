@@ -4,7 +4,8 @@
   "description": "My personal website",
   "main": "index.js",
   "scripts": {
-    "test": "cypress run",
+    "start": "diagrams watch src & eleventy --serve",
+    "test": "npm start & wait-on http://localhost:8080 && cypress run",
     "build": "diagrams build src && eleventy"
   },
   "repository": {
@@ -23,6 +24,7 @@
     "braces": ">=2.3.1",
     "cypress": "^3.4.0",
     "diagrams": "^0.10.0",
-    "lodash": ">=4.17.13"
+    "lodash": ">=4.17.13",
+    "wait-on": "^3.3.0"
   }
 }

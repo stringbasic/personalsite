@@ -19,6 +19,11 @@ watch for diagram changes:
 > npx @diagrams/diagrams watch src
 ```
 
+or run both with
+```
+> npm start
+```
+
 ## build website
 
 ```
@@ -29,7 +34,7 @@ watch for diagram changes:
 Start development server first, and then run tests with cypress with:
 
 ```
-> npm run test
+> npm test
 ```
 
 Cypress UI can be open with:

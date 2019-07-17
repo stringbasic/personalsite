@@ -24,3 +24,15 @@ watch for diagram changes:
 ```
 > npm run build
 ```
+
+## run tests
+Start development server first, and then run tests with cypress with:
+
+```
+> npm run test
+```
+
+Cypress UI can be open with:
+```
+> npx @cypress/cypress open
+```

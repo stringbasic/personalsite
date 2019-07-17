@@ -4,8 +4,8 @@
   "description": "My personal website",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npx @diagrams/diagrams build src && npx @11ty/eleventy"
+    "test": "cypress run",
+    "build": "diagrams build src && eleventy"
   },
   "repository": {
     "type": "git",
@@ -20,8 +20,9 @@
   "homepage": "https://github.com/stringbasic/personalsite#readme",
   "devDependencies": {
     "@11ty/eleventy": "^0.8.3",
-    "diagrams": "^0.10.0",
     "braces": ">=2.3.1",
+    "cypress": "^3.4.0",
+    "diagrams": "^0.10.0",
     "lodash": ">=4.17.13"
   }
 }

@@ -17,7 +17,7 @@ My personal website, currently accessible at:
 
 watch for diagram changes:
 ```
-> npx @diagrams/diagrams watch src
+> npx diagrams watch src
 ```
 
 or run both with

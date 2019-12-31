@@ -4,9 +4,9 @@
   "description": "My personal website",
   "main": "index.js",
   "scripts": {
-    "start": "diagrams watch src & eleventy --serve",
+    "start": "npx diagrams watch src & npx @11ty/eleventy --serve",
     "test": "npm start & wait-on http://localhost:8080 && cypress run",
-    "build": "diagrams build src && eleventy"
+    "build": "npx diagrams build src && npx @11ty/eleventy"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,8 @@
     "cypress": "^3.8.1",
     "diagrams": "^0.27.0",
     "handlebars": ">=4.3.0",
-    "lodash": ">=4.17.13",
+    "jquery": ">=3.4.0",
+    "lodash": "^4.17.15",
     "wait-on": "^3.3.0"
   }
 }

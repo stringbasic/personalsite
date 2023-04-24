@@ -1,6 +1,6 @@
 {
   "name": "personalsite",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "My personal website",
   "main": "index.js",
   "scripts": {
@@ -20,13 +20,8 @@
   },
   "homepage": "https://github.com/stringbasic/personalsite#readme",
   "devDependencies": {
-    "@11ty/eleventy": "^1.0.2",
-    "acorn": "^8.7.0",
-    "braces": ">=2.3.1",
-    "cypress": "^9.2.0",
-    "handlebars": "^4.7.7",
-    "lodash": "^4.17.21",
-    "minimist": ">=1.2.6",
-    "wait-on": "^3.3.0"
+    "@11ty/eleventy": "^2.0.1",
+    "cypress": "^12.10.0",
+    "wait-on": "^7.0.1"
   }
 }

@@ -12,15 +12,10 @@ My personal website, currently accessible at:
 ## start development server
 
 ```
-> npx @11ty/eleventy --serve
+> npx eleventy --serve
 ```
 
-watch for diagram changes:
-```
-> npx diagrams watch src
-```
-
-or run both with
+or:
 ```
 > npm start
 ```
@@ -40,5 +35,10 @@ Start development server first, and then run tests with cypress with:
 
 Cypress UI can be open with:
 ```
-> npx @cypress/cypress open
+> npx cypress open
+```
+
+Node processes for current session can be stopped with:
+```
+> pkill -s 0 node
 ```

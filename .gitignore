@@ -3,3 +3,5 @@ node_modules
 *.svg
 *.swp
 *.mp4
+cypress/videos/*
+cypress/screenshots/*
